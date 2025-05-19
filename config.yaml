@@ -1,0 +1,36 @@
+#config
+
+# MODELL ELÉRÉSI UTAK
+detect_model_eleresi_ut: "runs/detect/train3/weights/best.pt"
+classify_model_eleresi_ut: "runs/classify/uj/weights/best.pt"
+
+# KÖNYVTÁRBEÁLLÍTÁSOK
+bemeneti_kep_konyvtar: "teszt_kepek"
+kivagott_ermék_konyvtar: "kivagott_ermék"
+osztalyozott_kepek_konyvtar: "osztalyozott_kepek"
+feluliras: true
+
+# MODEL PARAMÉTEREK
+batch_meret: 32
+mentesi_osztalyozas: false
+
+# FELDOLGOZÁSI BEÁLLÍTÁSOK
+clahe_clip_határ: 2.0
+blur_kernel_meret: [5, 5]
+num_workers: 12
+
+# BIZONYTALANSÁGI KÜSZÖBÖK
+konfidencia_kuszob: 0.5
+bizonytalan_kuszob: 0.7
+
+# KIMENETI MAX
+max_predict_konyvtarak: 5
+
+# ÉRMÉK ÉRTÉKEI
+erme_ertekek:
+  "5Ft": 5
+  "10Ft": 10
+  "20Ft": 20
+  "50Ft": 50
+  "100Ft": 100
+  "200Ft": 200
