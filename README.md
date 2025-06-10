@@ -6,3 +6,5 @@ Ez a projekt egy mesterséges intelligenciára épülő rendszer, amely képes m
 Futtatás
  Terminálból: main. py
  Grafikus felülettel: gui.py
+
+ Modellek: https://cloud.nordlocker.com/share/receiver/locker/unlock#Gh6dwgv8ZTJyFeOspBeL5c4lXjWL0tsC3pYruj7Du64   pw:QMkF37
